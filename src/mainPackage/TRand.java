@@ -15,9 +15,11 @@ public class TRand {
 		}
 		fileDirectory = new File(filePath);
 	}
+	
 	public TRand() {
 		
 	}
+	
 	
 	
 	private String loopFiles(File f) {
@@ -30,7 +32,6 @@ public class TRand {
 		} else {
 			return null;
 		}
-		System.out.println(s);
 		return s;
 	}
 	public String loopFiles() {
